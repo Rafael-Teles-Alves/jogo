@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo da Forca</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Jogo da Forca</h1>
+  <div id="word-container">
+    <!-- Espaços para as letras da palavra -->
+  </div>
+  <div id="guesses-container">
+    <p>Tentativas: <span id="guesses"></span></p>
+  </div>
+  <div id="input-container">
+    <label for="guess">Digite uma letra:</label>
+    <input type="text" id="guess" maxlength="1">
+    <button id="submit">Enviar</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
