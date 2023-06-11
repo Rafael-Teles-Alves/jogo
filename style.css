@@ -302,3 +302,17 @@ span{
     color: rgba(255, 255, 255, 0.747);
   }
 }
+
+
+
+
+
+
+
+.anuncio{
+  width: 250px ;
+  height:auto ;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
