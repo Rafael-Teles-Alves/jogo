@@ -1,11 +1,11 @@
  /* corpo*/
  *{
-  font-family: arial black;
+  font-family: arial, black;
   padding: 0px;
   margin: 0;
 }
 body{
-  background-color: rgb(230, 20, 20);
+  background-color: rgb(235, 235, 235);
 }
 .conteiner{
   padding: 40px 300px;
@@ -104,7 +104,7 @@ span{
 /* Estilos para dispositivos móveis com tela de no máximo 600px */
 @media (max-width: 600px) {
   * {
-    font-family: arial black;
+    font-family: arial, black;
     padding: 0px;
     margin: 0;
   }
@@ -203,9 +203,9 @@ span{
 }
 
 /* Estilos para dispositivos móveis com tela de no mínimo 601px */
-@media (min-width: 601px) {
+@media (min-width: 601px) { /* aqui altera ========================================================================================*/
   * {
-    font-family: arial black;
+    font-family: arial, black;
     padding: 0px;
     margin: 0;
   }
@@ -301,6 +301,14 @@ span{
   span {
     color: rgba(255, 255, 255, 0.747);
   }
+  .anuncio{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+  }
+
 }
 
 
@@ -309,10 +317,3 @@ span{
 
 
 
-.anuncio{
-  width: 250px ;
-  height:auto ;
-  display: flex;
-  justify-content: center;
-  background-color: red;
-}
