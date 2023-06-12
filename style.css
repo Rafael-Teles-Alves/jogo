@@ -219,14 +219,14 @@ span{
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: rgb(255, 229, 202);
+    background-color: rgba(224, 212, 198, 0.678);
     border-radius: 5px;
   }
   nav {
-    background-color: rgb(48, 137, 71, 0.79);
-    border: 1px #6e7373bf solid;
+    background-color: rgba(2, 65, 124, 0.849);
+    border: 1px #22ffffbf solid;
     border-radius: 8px;
-    box-shadow: 15px 15px 15px rgba(59, 59, 59, 0.404);
+    box-shadow: 15px 15px 15px rgba(255, 0, 0, 0.356);
   }
   nav ul {
     display: block;
