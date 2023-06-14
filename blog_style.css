@@ -1,0 +1,121 @@
+/* Estilos gerais */
+* {
+    font-family: arial, black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: rgb(235, 235, 235);
+}
+  
+/* Container principal */
+.conteiner {
+padding: 10px;
+text-align: center;
+}
+
+/* Título */
+.titulo-titulo {
+display: flex;
+justify-content: center;
+padding: 20px;
+background-color: rgba(224, 212, 198, 0.678);
+border-radius: 5px;
+}
+
+/* Menu de navegação */
+nav {
+background-color: rgba(2, 65, 124, 0.849);
+border: 1px #22ffffbf solid;
+border-radius: 8px;
+box-shadow: 15px 15px 15px rgba(255, 0, 0, 0.356);
+}
+
+nav ul {
+display: block;
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+nav ul li {
+display: inline-block;
+padding: 10px;
+margin: 10px;
+}
+
+nav ul li a {
+text-decoration: none;
+margin-left: 15px;
+color: rgb(255, 255, 255);
+}
+
+a:hover {
+color: bisque;
+}
+
+/* Mapas e imagens */
+.desc-img-mapa-top {
+padding: 10px;
+margin: 20px;
+color: black;
+}
+
+.corpo-mapas-img h3 {
+display: flex;
+justify-content: center;
+padding: 10px;
+margin: 10px;
+font-family: 'Courier New', Courier, monospace;
+color: rgba(41, 40, 40, 0.884);
+}
+
+p {
+color: rgb(10, 10, 10);
+margin-top: 10px;
+padding: 10px;
+text-align: start;
+font-family: arial;
+}
+
+figure {
+margin: 10px;
+}
+
+img {
+width: 85%;
+}
+
+.img-top-mapa {
+position: relative;
+margin-top: 10px;
+padding: 10px;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+.conteiner {
+    padding: 10px 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.corpo-mapas-img h3 {
+    padding: 5px;
+    margin: 5px;
+}
+
+p {
+    padding: 5px;
+}
+
+figure {
+    margin: 5px;
+}
+}
